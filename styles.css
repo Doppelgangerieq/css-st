@@ -1,0 +1,109 @@
+body {
+  background-color: gainsboro;
+  color: black;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto Condensed', sans-serif;
+  font: normal 16px 'Roboto Condensed', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(230, 77, 77);
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: rgb(10, 11, 117);
+}
+
+H2 {
+  font-size: 30px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 3, 14);
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info-text {
+  margin-left: 30px;
+}
+
+.info p {
+  color:brown;
+  margin: 0;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+}
+
+/* .task{
+  background-color: rgb(235, 48, 48);
+  padding: 15px;
+  border: 5px solid black;
+  margin: 20px;
+} */
+
+.bg-color-1 {
+  background-color:rgb(255, 172, 172);
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: black ;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  margin-bottom: 10px;
+}
+
+.table tr {
+  background-color: gainsboro;
+}
+
+.btn {
+  background-color: gainsboro;
+  padding: 15px 20px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
